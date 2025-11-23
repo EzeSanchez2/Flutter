@@ -17,6 +17,7 @@ class _CounterFunctionsScreenState extends State<CounterFunctionsScreen> {
 
   @override
   Widget build(BuildContext context) {
+    //Barra superior de herramientas
     return Scaffold(
         appBar: AppBar(
           title: Center(child:Text("Counter Function")), 
@@ -32,6 +33,8 @@ class _CounterFunctionsScreenState extends State<CounterFunctionsScreen> {
           ),
           ],
         ),
+
+        // cuerpo del programa con numeros y el texto click
         body: Center( 
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -45,6 +48,8 @@ class _CounterFunctionsScreenState extends State<CounterFunctionsScreen> {
             ],
         ),),
 
+
+//Control de boton
         floatingActionButton: Column(
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
@@ -78,6 +83,8 @@ class _CounterFunctionsScreenState extends State<CounterFunctionsScreen> {
     }
 }
 
+
+//Widget personalizado
 class CustomBottom extends StatelessWidget {
 
   final IconData icon;
