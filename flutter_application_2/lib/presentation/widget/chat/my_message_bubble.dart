@@ -12,13 +12,13 @@ class MyMessageBubble extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.end,
       children: [
         Container(
-           decoration:BoxDecoration(
+            decoration:BoxDecoration(
             color: colors.primary,
             borderRadius: BorderRadius.circular(20)
           ) ,
           child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20,vertical: 10),
-            child: Text("Hola asdksadjsakldaskja",style: TextStyle(color: Colors.white),),
+            child: Text("Hola ",style: TextStyle(color: Colors.white),),
           ),
         ),
       

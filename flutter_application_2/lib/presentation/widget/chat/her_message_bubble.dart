@@ -12,7 +12,7 @@ class HerMessageBubble extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Container(
-           decoration:BoxDecoration(
+            decoration:BoxDecoration(
             color: colors.secondary,
             borderRadius: BorderRadius.circular(20)
           ) ,
@@ -49,7 +49,7 @@ class _ImageBubble extends StatelessWidget {
     height: 150,
     fit: BoxFit.cover,
     loadingBuilder:(context, child, loadingProgress) {
-
+      //Mensaje que se muestra cuando se esta cart
       if (loadingProgress == null) return child; 
 
 
